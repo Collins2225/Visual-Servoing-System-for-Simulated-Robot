@@ -43,3 +43,4 @@ Outcome
 
 This project demonstrates how perception and control can be integrated to create intelligent robotic systems 
 capable of responding dynamically to visual input — a fundamental concept in modern AI-driven robotics.
+“This is a robot that can guide itself using vision. It watches an object through a camera, calculates how far off it is, and moves its arm to correct the error. The whole system runs in simulation, so I can test intelligent robot behavior safely.”
