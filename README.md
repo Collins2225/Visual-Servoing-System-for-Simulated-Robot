@@ -1,3 +1,21 @@
+"I built a system where a robot arm uses a camera
+as its eyes to find and track an object automatically.
+
+Instead of telling the robot exactly where to move,
+the robot LOOKS at what it sees in the camera,
+figures out where the object is,
+and keeps adjusting its movement until
+the object is perfectly centered in its view.
+
+It's like how you naturally move your hand
+toward something you're looking at —
+the robot does the same thing using math and code."
+
+The three core components are:
+  1. ObjectTracker  → extracts visual features [cx, cy, area]
+  2. IBVSController → computes end effector velocity
+  3. RobotEnv       → simulates physics and executes IK
+
 This project implements a vision-based closed-loop control system for a simulated robotic arm. 
 The robot uses camera feedback to detect and track a target object and adjusts its motion in real time to minimize positional error.
 
